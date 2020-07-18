@@ -4,8 +4,8 @@
 - IE11 fallback included
 
 ## How to Use
-1) Add class "lazy" to the image
-2) Add "data-" to the src/srcset/sizes attributes
+1) Add class `lazy` to the image
+2) Add `data-` to the src/srcset/sizes attributes
 
 ## Img tag Example
 `<img data-src="img_src" data-srcset="img_srcset" data-sizes="img_sizes" alt="img_alt" class="lazy">`
