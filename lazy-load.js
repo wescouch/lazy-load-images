@@ -39,7 +39,7 @@ if (!!lazyBkgEls.length) {
 				let el = entry.target;
 				observer.unobserve(el);
 
-				el.dataset.bg ? el.style.backgroundImage = `url("${el.dataset.bg}")` : '';
+				el.dataset.bkg ? el.style.backgroundImage = `url("${el.dataset.bkg}")` : '';
 			}
 		});
 	}, lazyBkgElsObserverOptions);
